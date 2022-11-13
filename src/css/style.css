@@ -1,0 +1,77 @@
+body {
+  background-color: hsl(212, 23%, 69%);
+  color: hsl(217, 19%, 35%);
+  font-family: "Manrope", sans-serif;
+}
+
+section.centralizar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main.card {
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 2rem;
+  border-radius: 1rem;
+}
+
+img.imagem-movel {
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+div.post div.titulo-descricao-post {
+  padding: 2.6rem 4rem 2rem 4rem;
+}
+
+div.post h1.titulo-post {
+  font-size: 1.8rem;
+}
+
+div.post p.descricao-post {
+  font-size: 1.5rem;
+}
+
+section.informacoes-post {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+section.informacoes-post div.sobre-post {
+  display: flex;
+  align-items: center;
+}
+
+img.foto-autor-post {
+  max-width: 4rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+div.autor-data-post {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+span.autor-post {
+  font-weight: 600;
+}
+
+span.data-post {
+  font-size: 1.5rem;
+}
+
+section.informacoes-post button.btn-compartilhar {
+  padding: 0.7rem;
+  background-color: hsl(208, 26%, 87%);
+  border: none;
+  border-radius: 50%;
+}

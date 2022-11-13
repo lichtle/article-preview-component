@@ -1,0 +1,32 @@
+@media (min-width: 768px) {
+  main.card {
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    align-items: center;
+  }
+
+  main.card img.imagem-movel {
+    min-height: 100%;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  div.post div.titulo-descricao-post {
+    padding: 2.6rem 4rem 1rem 4rem;
+  }
+
+  section.informacoes-post {
+    justify-content: space-between;
+    margin: 0 4rem 3rem 4rem;
+  }
+
+  div.autor-data-post {
+    gap: 0.2rem;
+  }
+
+  span.autor-post {
+    font-size: 1.5rem;
+  }
+}
