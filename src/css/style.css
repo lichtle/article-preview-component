@@ -15,7 +15,6 @@ main.card {
   background-color: hsl(210, 46%, 95%);
   display: flex;
   flex-direction: column;
-
   margin: 0 2rem;
   border-radius: 1rem;
 }
@@ -42,6 +41,7 @@ section.informacoes-post {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 section.informacoes-post div.sobre-post {
@@ -74,4 +74,43 @@ section.informacoes-post button.btn-compartilhar {
   background-color: hsl(208, 26%, 87%);
   border: none;
   border-radius: 50%;
+}
+
+/* JAVASCRIPT CUSTOMIZATION */
+
+div.compartilhar {
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(208, 26%, 87%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0 0 1rem 1rem;
+  padding: 2rem 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+div.compartilhar div.opcoes-compartilhar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.share {
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 1.4rem;
+  margin-right: 3rem;
+}
+
+i.fa-brands {
+  font-size: 2rem;
+  color: hsl(208, 26%, 87%);
+  margin-top: 0.4rem;
+}
+
+div.icones-compartilhar {
+  word-spacing: 1.8rem;
 }
