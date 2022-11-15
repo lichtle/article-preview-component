@@ -24,8 +24,12 @@ img.imagem-movel {
   border-radius: 1rem 1rem 0 0;
 }
 
+div.post {
+  position: relative;
+}
+
 div.post div.titulo-descricao-post {
-  padding: 2.6rem 4rem 2rem 4rem;
+  padding: 3rem 4rem;
 }
 
 div.post h1.titulo-post {
@@ -41,7 +45,6 @@ section.informacoes-post {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
-  position: relative;
 }
 
 section.informacoes-post div.sobre-post {
@@ -69,8 +72,8 @@ span.data-post {
   font-size: 1.5rem;
 }
 
-section.informacoes-post button.btn-compartilhar {
-  padding: 0.7rem;
+button.btn-compartilhar {
+  padding: 1rem;
   background-color: hsl(208, 26%, 87%);
   border: none;
   border-radius: 50%;
@@ -86,10 +89,14 @@ div.compartilhar {
   align-items: center;
   justify-content: space-around;
   border-radius: 0 0 1rem 1rem;
-  padding: 2rem 0;
+  padding: 2.5rem 0;
   position: absolute;
   left: 0;
-  top: 0;
+  bottom: 0;
+}
+
+div.compartilhar {
+  display: none;
 }
 
 div.compartilhar div.opcoes-compartilhar {
@@ -100,9 +107,10 @@ div.compartilhar div.opcoes-compartilhar {
 
 span.share {
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
   font-size: 1.4rem;
+  letter-spacing: 0.5rem;
   margin-right: 3rem;
+  color: hsl(208, 26%, 87%);
 }
 
 i.fa-brands {
